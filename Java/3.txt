@@ -1,0 +1,13 @@
+package com.example.zakkiharis.semarangcitytouruvi;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class masuk_sampokong extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_masuk_sampokong);
+    }
+}
