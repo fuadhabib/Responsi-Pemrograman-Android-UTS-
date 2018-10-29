@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/iv_gambar"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/surgayang"
+
+            />
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_gambar"
+            android:gravity="center"
+            android:text="@string/jdl_surgayang"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/tx_simpanglima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_judul"
+            android:text="@string/detail_surgayang"
+            android:fontFamily="times new roman"
+            android:textSize="20dp"
+
+            />
+
+
+    </RelativeLayout>
+</RelativeLayout>
